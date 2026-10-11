@@ -1,0 +1,72 @@
+VOCATIONAL DICTIONARY — GITHUB PAGES EDITION
+Developed by: Ms. Amina Qatan
+
+QUICK UPLOAD FROM YOUR PHONE
+1. Download Vocational_Dictionary_GitHub_Ready.zip.
+2. In your phone's Files/My Files app, open the ZIP and choose Extract.
+3. Open https://github.com/new in Chrome. If menus are missing, enable
+   Chrome's Desktop site option.
+4. Repository name: Vocational-Dictionary
+   Choose Public, switch on Add a README, and create the repository.
+5. In the repository, choose Add file > Upload files > Choose your files.
+6. Open the extracted Vocational-Dictionary folder and select ALL its files.
+   Upload the files INSIDE that folder together, then choose Commit changes.
+   Do not upload the ZIP itself or put the files inside another nested folder.
+   You must see index.html and the unit-L1U1.json files on the repository's
+   main file page, alongside the other files.
+7. Open Settings > Pages.
+   Under Build and deployment, select Deploy from a branch.
+   Select main and /(root), then Save.
+8. Wait until GitHub Pages says the site is live. Open its Visit site link.
+   Share that website link in Google Classroom.
+
+With the account AminaQatan and the exact repository name above, the expected
+website address after successful publication is:
+https://aminaqatan.github.io/Vocational-Dictionary/
+This address is not live merely because this ZIP has been prepared.
+
+COMPUTER OPTION
+The same upload steps work in a desktop browser. This package contains fewer
+than 100 files, and every file is below GitHub's 25 MiB browser-upload limit.
+No GitHub Desktop, Node.js, GitHub Actions, Cloudflare or paid hosting is needed.
+The optional .nojekyll file can also be uploaded; the other filenames and
+folders in this package do not depend on it.
+
+INSTALL ON STUDENTS' PHONES
+Android: Open the published website in Chrome and tap Install app, or use
+Chrome's menu > Add to Home screen > Install.
+iPhone/iPad: Open it in Safari > Share > Add to Home Screen > Add. Keep Open
+as Web App enabled if that option appears.
+Open the app from its icon, then tap Save for offline and keep the screen open
+until All levels are ready offline appears. All three levels, pictures and
+pronunciation need about 49 MB of browser storage. Clearing browser/app data
+or device storage eviction may require saving the files again.
+
+WHAT IS INCLUDED
+All 1,176 dictionary entries, 15 units, 1,176 unique pictures and 1,046 distinct
+pronunciation recordings. Every word retains its example sentence.
+The pictures and audio are grouped into 15 unit JSON packs, downloaded when
+needed. Keep every unit pack with index.html. Pronunciation stays playable
+without a separate audio folder. Unit loading may take a moment on a slow
+connection; the speaker becomes active when its unit is ready.
+
+DO NOT UPLOAD
+The separate Android Private Update Backup ZIP is not part of this website.
+Only use the files from this GitHub-ready package for the public repository.
+This package contains no Android signing keys, passwords or account tokens.
+
+UPDATES
+Upload revised files to the same repository. Changing runtime files requires
+changing the shellCache version in offline-config.js. Changing unit pack
+content requires changing contentCache too. Keep paths relative so the app
+works inside a GitHub Pages repository folder.
+
+VERIFICATION
+Every packed media item was compared with the current dictionary's original
+bytes. Offline saving, resuming a partial download, installation-prompt wiring
+and serving from a GitHub-style subfolder were checked programmatically.
+Physical-phone installation and playback have not been tested for this export.
+
+Official GitHub instructions:
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
